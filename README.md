@@ -13,7 +13,7 @@ function onOpen() {
 
 function createEvents() {
   var spreadsheet = SpreadsheetApp.getActiveSheet();
-  var eventCal = CalendarApp.getCalendarById("c_8id7jc5cbi26hf914glpadmcu8@group.calendar.google.com");
+  var eventCal = CalendarApp.getCalendarById("THIS IS CHANGED SO I DON'T LEAK OUR CALENDAR");
   var items = spreadsheet.getDataRange().getValues();
 
   for (x = 1; x < items.length; x++) {
